@@ -1,0 +1,7 @@
+--scenario-name psip_short --force-lng-tier container
+--scenario-name container_short --psip-relax --force-lng-tier container
+--scenario-name bulk_short --psip-relax --force-lng-tier bulk
+--scenario-name no_lng_short --psip-relax --force-lng-tier none
+--scenario-name container_cc_383_short --psip-relax --force-lng-tier container --force-build 2020 CC_383 383
+--scenario-name bulk_cc_383_short --psip-relax --force-lng-tier bulk --force-build 2020 CC_383 383
+--scenario-name no_lng_cc_383_short --psip-relax --force-lng-tier none --force-build 2020 CC_383 383

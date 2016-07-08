@@ -1,0 +1,9 @@
+--inputs-dir inputs
+--demand-response-share 0.103
+--biofuel-limit 1.0
+--verbose 
+--stream-solver
+--solver=cplex --solver-io=nl 
+--solver-options-string="mipgap=0.001 display=1 mipdisplay=1 primalopt='' advance=2 threads=1 iisfind=1"
+#--solver-options-string="mipgap=0.001 display=1 mipdisplay=1 primalopt='' advance=2 threads=1"
+--suffixes iis
